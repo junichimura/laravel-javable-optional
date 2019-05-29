@@ -1,0 +1,26 @@
+{
+    "name": "junichimura/laravel-javable-optional",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Junichimura",
+            "email": "jfujimura13@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "laravel/framework": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Junichimura\\LaravelJavableOptional\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Junichimura\\LaravelJavableOptional\\JavableOptionalProvider"
+            ]
+        }
+    }
+}
