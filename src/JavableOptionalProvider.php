@@ -14,6 +14,7 @@ class JavableOptionalProvider extends ServiceProvider
 
     public function register()
     {
+        // java8 like Optional methods mix in to Optional Class
         Optional::mixin(new class {
 
             /**
